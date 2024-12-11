@@ -1,0 +1,10 @@
+RUN:
+	npx wrangler dev
+	curl http://localhost:8787
+
+JSON:
+	{
+	 "date": "11 Dec, 2024",
+	 "price": "102.92"
+	}
+
