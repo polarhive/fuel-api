@@ -35,7 +35,7 @@ export default {
         const title = match[1];
         console.log("Title extracted:", title);
 
-        const dateRegex = /(\d{1,2})(?:st|nd|rd|th)?\s([A-Za-z]+)\.?\s(\d{4})/;
+        const dateRegex = /(\d{1,2})(?:st|nd|rd|th)?\s([A-Za-z]+)\.?,?\s(\d{4})/;
         const dateMatch = title.match(dateRegex);
 
         if (dateMatch) {
